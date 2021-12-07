@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+        <div class="brand">School of Code</div>
+        <div class="details">
+           <p id='hover-name'>Produc:</p>
+           <p id='hover-price'>Price:</p>
+           <p id='hover-quantity'>Quantity:</p>
+        </div>
+        <div class="buttons">
+            <button id="add-new-product">Add new Product</button>
+        </div>
+    </div>
+    
+    <div class='big'>
+
+        <div class='left'>
+            <h1>Trolley:</h1>
+            <ul id='list'></ul>
+            <h1 id='total'>Total:</h1>
+            <button>Clear Trolley</button>
+
+        </div>
+        <div class='container'>
+    
+            <div id='test' class='div-add-product'>
+                <h1>Add New Product:</h2>
+                <input id="product-name" type="text" placeholder="Product">
+                <select id='product-type' name="type" id="drink">
+                    <option value="Draught">Draught Beer</option>
+                    <option value="Spirits">Spirits</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Soft">Soft Drinks</option>
+                  </select>
+                <input id="product-price" type="number" placeholder="Price">
+                <input id="product-quantity" type="text" placeholder="Quantity">
+                <button id='push'>Add Product</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="footer"></div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

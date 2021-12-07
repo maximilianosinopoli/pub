@@ -127,4 +127,5 @@ function buscando(e) {
 }
 
 let a;
+let b;
 
